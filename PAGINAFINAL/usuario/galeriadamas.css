@@ -1,0 +1,35 @@
+h1{
+    color: rgb(231, 76, 76);
+    text-shadow: 1px 2px 2px rgb(3, 3, 3), 0 0 25px rgb(20, 195, 201), 0 0 5px rgb(230, 13, 13);
+    text-align: center;
+}
+
+
+
+div.galeria{
+    cursor: grab;
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 rgb(235, 118, 8);
+    float: left;
+    width: 350px;
+    padding: 20px;
+    justify-content: center;
+}
+
+div.galeria img{
+    width: 100%;
+    height: auto;
+    border-style:outset;
+}
+
+div.galeria:hover{
+    border: 1px solid lightcoral;
+    transform: rotate(-5deg);
+}
+
+div.pie {
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(10, 10, 10);
+    padding: 10px;
+    text-decoration:green
+}

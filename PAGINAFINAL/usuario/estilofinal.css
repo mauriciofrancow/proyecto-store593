@@ -1,0 +1,239 @@
+*{
+  margin: 0;
+  padding: 0a;
+}
+.encabezado{
+  background: #7eb1b1;
+}
+img{
+  width: 100px;
+}
+.encabezado nav{
+ display: flex;
+ justify-content: space-around; 
+ align-items: center;
+ padding: 20px;
+}
+.encabezado nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+a{
+  text-decoration: none;
+  font-size: 20px;
+  background: rgb(180, 207, 214);
+  color: rgb(27, 25, 25);
+  padding: 10px 30px;
+  display: inline-block;
+}
+a:hover{
+  background: rgb(75, 66, 66);
+}
+.nav-enlace{
+  text-decoration: none;
+  display: inline-block;
+  background: rgb(44, 65, 71);
+  color: #fff;
+  padding: 10px 30px;
+}
+.nav-enlace:hover {
+  background-color: rgb(75, 66, 66);
+  }
+nav{
+  background: rgb(22, 142, 163);
+  padding: 10px;
+}                
+#input-search{
+  width: 500px;
+  height: 40px;
+  font-size: 20px;
+  text-indent: 10px;
+  position: absolute;
+  left: 350px;
+  top: 50%;
+}
+.slider{
+  display:block;
+  margin: auto;
+  width: 90%;
+  height: 600px;
+  overflow: hidden;
+}
+.slider ul{
+  display: flex;
+  padding: 0px;
+  animation: cambio 20s infinite
+  alternate linear;
+  width: 400%;
+}
+  
+.slider li{
+  width: 100%;
+  list-style: none;
+}
+  
+  .slider img{
+    margin: 1em;
+    width: 100%;
+    height: 100%;
+  }
+  
+  @keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    25%{margin-left: -150%;}
+    45%{margin-left: -150%;}
+    
+    50%{margin-left: -150%;}
+    70%{margin-left: -150%;}
+    
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+  }
+
+
+  .INFORMACION {
+    margin: 10px;
+    background: chartreuse;
+    color: rgb(248, 105, 105);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 10px;
+  }
+  .contexto{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-width: 20px;
+    border-style:inset;
+    font-family: 'Anton', sans-serif;
+    }
+  
+  .barra {
+    margin-top: 50px;
+    background-color: chartreuse;
+    width: 100%;
+    padding: -2em;
+    position: relative;
+
+  }
+  .barra h2 {
+    font-family:cursive;
+    color: rgb(248, 105, 105);
+  }
+  .container{
+    cursor: grab;
+    width: 100%;
+    max-width: 1200px;
+    height: 530px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+  }
+  .container .card{
+    width: 350px;
+    height: 570px;
+    border-radius: 20px;
+    box-shadow: 0 2px 2px rgba(92, 79, 79, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+  }
+  
+  .container .card:hover{
+    transform: translateY(-25px);
+    box-shadow: 0 12px 16px rgba(161, 197, 30, 0.2);
+  }
+  
+  .container .card img{
+    width: 330px;
+    height: 320px;
+  }
+  
+  
+  .container .card h4{
+    font-weight: 600;
+  }
+  
+  .container .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  .container .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+  }
+  .contenedor{
+    max-width: 1170px;
+    margin:auto;
+}
+.letras{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.final{
+    background-color: black;
+  width: 100%;
+  height: 300px;
+  bottom: 0;
+  position: relative;
+  text-align: center;
+  top: 50px;
+
+}
+.final-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.final-col h4{
+    font-size: 18px;
+    color: wheat;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.final-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.final-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
+    color: black;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.final-col .redes a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.final-col .redes a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+  
+
+  
